@@ -12,4 +12,4 @@ caleb.calc_age()
 caleb.register()
 
 print("Student age is:", caleb.get_age())
-print("Student can register betwee:",caleb.get_registration())
+print("Student can register between:",caleb.get_registration())
