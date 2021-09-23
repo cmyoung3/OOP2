@@ -14,6 +14,7 @@ class RetailItem:
 
     def get_Price(self):
         return self.__price
+    
 
 
     #add inv and price later

@@ -1,13 +1,11 @@
 import CarType as c
+year_model = '2008'
+make = 'Mazda'
 
-model = "2008 Mazda3"
-brand = "Mazda"
+a = c.Car(year_model,make)
+a.get_Make
+a.get_Model
 
-#car = c.Car(m,b)
-a = c.Car(model, brand)
-
-#print(m,b)
-print(a.get_Model, a.get_Make)
 for x in range(5):
     a.accelerate()
     print('-- Your current speed is', a.get_speed())
